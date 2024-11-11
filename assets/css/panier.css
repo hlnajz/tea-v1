@@ -1,0 +1,103 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container h1 {
+  margin: 0;
+}
+
+.back-home {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  margin: 10px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e9e9e9;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.total-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.total-container h3 {
+  margin: 0;
+}
+
+.total-container span {
+  font-weight: bold;
+}
+
+/* this btn i get it from this web: https://getcssscan.com/css-buttons-examples */
+.button-24 {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panier</title>
+    <link rel="stylesheet" href="../assets/css/panier.css" />
+    <link
+      rel="shortcut icon"
+      href="../img/icons8-shopping-basket-80.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1>Teras de the</h1>
+        <a href="../index.html" class="back-home">Retour aux produits</a>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Produit</th>
+            <th>Prix</th>
+            <th>Quantité</th>
+            <th>Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+      </table>
+      <div class="total-container">
+        <h3>Total : <span id="grand-total">0</span> DH</h3>
+      </div>
+    </div>
+
+    <script src="../assets/js/panier.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- check hlnajz.com  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boutique de The</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/icons8-shopping-basket-80.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="top-nav">
+        <div class="logo">Terres de the</div>
+        <div class="nav-items">
+          <span>Capsules</span>
+          <span>Grain</span>
+        </div>
+        <div class="cart-icon">
+          <a href="pages/panier.html">
+            <img src="img/icons8-shopping-basket-80.png" width="40px" />
+          </a>
+        </div>
+      </nav>
+
+      <div class="content">
+        <div class="filter-bar">
+          <div class="search-container">
+            <form id="search-form">
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Rechercher un café..."
+              />
+              <button class="search-btn" type="submit">Rechercher</button>
+            </form>
+          </div>
+          <div class="filter-icons">
+            <span
+              ><img src="img/icons8-grid-24.png" id="grid" alt="Grid View"
+            /></span>
+            <span
+              ><img src="img/icons8-list-24.png" id="list" alt="List View"
+            /></span>
+          </div>
+        </div>
+
+        <div class="product-content" id="product-content"></div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
